@@ -134,3 +134,11 @@ Going to contiune cannot commit to github while having errors. Going to try to f
 - Modified the _ViewStart.cshtml to reflect the new path > (Layout = "~/Views/Shared/_Layout.cshtml";)
 - Ran the application and success!
 - Commited to GitHub
+
+0716
+- Added a new Admin area in Areas
+- Right Clicked on Areas -> Add -> Area -> MVC Area -> Named it 'Admin' -> Add
+- Copy and pasted the _ViewImports.cshtml and _ViewStart.cshtml -> Admin Views folder.
+- Deleted the Data and Models folder from the Admin folder
+- Deleted the Controllers folder from SalmasBookStore application
+- Updated the GitHub repo
