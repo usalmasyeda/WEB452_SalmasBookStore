@@ -70,6 +70,13 @@ ADDING PROJECTS AND MODIFYING
 
 - Clicked Tool > NuGet Package Manager > Brower
 - Installed (Identity.EntityFramework.Core) version (5.0.2)
+- I am starting to see ERRORS!!! in the console.
+
+
+- Installed the wrong Identity.EntityFramework.Core!! thats why I was seeing errors. 
+- Installed the right one now: (Microsoft.AspNetCore.Identity.EntityFrameworkCore) Version (5.0.2)
+- Errors went away! Thank god.
+
 
 
 
