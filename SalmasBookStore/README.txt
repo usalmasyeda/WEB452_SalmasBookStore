@@ -50,6 +50,13 @@ ADDING PROJECTS AND MODIFYING
 - Clone repo from github 
 - Build the project, no errors
 
+0215
+- Added three new projects 
+- Right-clicked Solution 'SalmasBookStore' -> Add -> New Project
+> SalmasBook.DataAccess
+> SalmasBook.Models
+> SalmasBook.Utility
+
 
 
 
