@@ -60,6 +60,11 @@ ADDING PROJECTS AND MODIFYING
 - Copied Data Folder and pasted it to the SalmasBook.DataAccess
 - Deleted the original folder
 
+0235
+
+- Installed two packages 
+> Microsoft.EntityFrameworkCore.Relational
+> Microsoft.EntityFrameworkCore.SqlServer
 
 
 
