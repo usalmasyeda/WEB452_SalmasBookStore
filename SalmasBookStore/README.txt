@@ -57,6 +57,9 @@ ADDING PROJECTS AND MODIFYING
 > SalmasBook.Models
 > SalmasBook.Utility
 
+- Copied Data Folder and pasted it to the SalmasBook.DataAccess
+- Deleted the original folder
+
 
 
 
