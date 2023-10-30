@@ -14,7 +14,7 @@ Created the GitHub repo
 
 - In Startup.cs file on line 35 toggle blocked (options => options.SignIn.RequireConfirmedAccount = true)
 
-10/28/2023
+2023-10-28
 0924
 
 SETTING UP THE PROJECT (PART 1) BOOTSTRAP
@@ -40,8 +40,16 @@ SETTING UP THE PROJECT (PART 1) BOOTSTRAP
 - In Views/Shared/_Layout.cshtml I added a dropdown to the NavBar
 - Ran the project to see the changes, looks good. 
 - Changed the 'Dropdown' name to 'Content Management'
+- Done everything works
 
+
+2023-10-30
+1237
 ADDING PROJECTS AND MODIFYING
+
+- Clone repo from github 
+- Build the project, no errors
+
 
 
 
