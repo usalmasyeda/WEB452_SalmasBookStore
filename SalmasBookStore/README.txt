@@ -4,6 +4,14 @@ WEB 452 003
 
 Started Assignment 2 Creating a default ASP.NET MVC Application
 
+Application: Using Visual Studio 2019
+- Created New Project ASP.NET Core Web Application (MVC)
+Project Name: SalmasBookStore
+- Chnaged Authentication to Individual User Accounts
+- Enabled Razor runtime compilation
+- Created the application ready to code, working in the solutions folder.
+
+
 0305
 - Created README.txt File
 - Created README.md File
@@ -142,3 +150,5 @@ Going to contiune cannot commit to github while having errors. Going to try to f
 - Deleted the Data and Models folder from the Admin folder
 - Deleted the Controllers folder from SalmasBookStore application
 - Updated the GitHub repo
+
+-------- THE END OF PART 1 -------------
