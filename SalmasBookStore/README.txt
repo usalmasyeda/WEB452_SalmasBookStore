@@ -66,6 +66,7 @@ ADDING PROJECTS AND MODIFYING
 > Microsoft.EntityFrameworkCore.Relational
 > Microsoft.EntityFrameworkCore.SqlServer
 
+- Deleted the Migrations Folder 
 
 
 
