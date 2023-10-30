@@ -114,3 +114,23 @@ Going to contiune cannot commit to github while having errors. Going to try to f
 
 --- I RESOLVED ALL THE ERRORS!!! ---
 - Build the project! A success!
+
+
+0630
+- In the Utility project I created a static details class called SD.cs
+- Right-Clicked on .Utility -> Add -> Class
+- Named it SD.cs
+- Modified the properties of the class, 'public static class SD'
+- Right-Clicked on SalmasBookStore -> Add -> Project Reference -> Ticked on .Utility -> OK
+- Right-Clicked on .DataAccess -> Add -> Project Reference -> Ticked on .Models and .Utility -> OK
+- Right Clicked on Areas -> Add -> Area -> MVC Area -> Named it 'Customer' -> Add
+- Went to startup.cs file and changed the pattern for the route: (pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");)
+- Moved the HomeController.cs to the Area -> Customer -> Controller folder and I deleted the Data and Models folder.
+- Edited the HomeController.cs by adding [Area("Customer")] after the namespace
+- Moved Home folder from the Views -> to the Views folder in Areas
+- Modified the HomeController namespace to: (namespace SalmasBookStore.Area.Customer.Controllers)
+- Ran the application successfull. Views are not in the ares and the master page is defined in _ViewStart
+- Copied _ViewImport and _ViewStart to Customer Area
+- Modified the _ViewStart.cshtml to reflect the new path > (Layout = "~/Views/Shared/_Layout.cshtml";)
+- Ran the application and success!
+- Commited to GitHub
