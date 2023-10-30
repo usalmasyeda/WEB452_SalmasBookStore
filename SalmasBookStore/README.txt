@@ -78,8 +78,39 @@ ADDING PROJECTS AND MODIFYING
 - Errors went away! Thank god.
 - Commited to Git Repo
 
+0537
+- Cloned repo from github
+- Modified the namespace to reflect the project 
+- Went to ApplicationDbContext.cs in SalmasBook.DataAccess -> changed the namespace to:
+> namespace SalmasBookStore.DataAccess.Data
+- Deleted all the default Class1.cs files from all the prjects: 
+> SalmasBook.DataAccess
+> SalmasBook.Models
+> SalmasBook.Utility
 
+- When I tried to build my project there is an 3 error!
 
+Error Message: The type or namespace name 'Data' doesn't exist.
 
+- Moved Models folder in to SalmasBook.Models Project.
+- Deleted the original Models folder
+- Modified Views -> Shared -> Error.cshtml
+- Right-Clicked on SalmasBookStore.sln project -> Add -> Project Reference
+- Ticked .DataAccess and .Models -> the OK
+- Renamed Models folder to 'ViewModels' inside SalmasBook.Models
+- Changed the ErrorViewModels.cs namespace .Models.ViewModels
+- Build Project -> GETTING SO MANY ERRORS!
 
+Going to contiune cannot commit to github while having errors. Going to try to fix the errors
+- Modified Startup.cs file, added a using statement at the top "using SalmasBookStore.Data;"
+- Building the project and NO cannot build due to errors
+- Reviewing the errors
+- Removed the using statement "using SalmasBookStore.Data;" from the ErrorViewModel.cs
+- Went to Error.cshtml and changed the @model
+>@model SalmasBookStore.Models.ViewModels.ErrorViewModel
 
+- Also went to the startup.cs file and added the using statement 'using SalmasBookStore.DataAccess.Data
+- Also went to the HomeController.cs and added the using statement 'using SalmasBookStore.Models.ViewModels
+
+--- I RESOLVED ALL THE ERRORS!!! ---
+- Build the project! A success!
