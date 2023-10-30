@@ -76,6 +76,7 @@ ADDING PROJECTS AND MODIFYING
 - Installed the wrong Identity.EntityFramework.Core!! thats why I was seeing errors. 
 - Installed the right one now: (Microsoft.AspNetCore.Identity.EntityFrameworkCore) Version (5.0.2)
 - Errors went away! Thank god.
+- Commited to Git Repo
 
 
 
