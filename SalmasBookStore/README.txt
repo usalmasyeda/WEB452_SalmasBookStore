@@ -63,10 +63,13 @@ ADDING PROJECTS AND MODIFYING
 0235
 
 - Installed two packages 
-> Microsoft.EntityFrameworkCore.Relational
-> Microsoft.EntityFrameworkCore.SqlServer
+> Microsoft.EntityFrameworkCore.Relational Version (5.0.11)
+> Microsoft.EntityFrameworkCore.SqlServer Version (5.0.11)
 
 - Deleted the Migrations Folder 
+
+- Clicked Tool > NuGet Package Manager > Brower
+- Installed (Identity.EntityFramework.Core) version (5.0.2)
 
 
 
