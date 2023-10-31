@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using SalmasBook.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,7 @@ namespace SalmasBookStore.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

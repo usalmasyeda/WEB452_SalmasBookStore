@@ -169,3 +169,27 @@ STARTING PART 2 OF THIS PROJECT
 - Ran the applciation to check if there are any errors, no errors!
 - Build was a success.
 - Commited to Git Repo
+
+- Created a new class file named Category.cs in the SalmasBook.Models folder
+- Modified and made changes inside the Category.cs file -> Added public class
+- This is the code: 
+
+public class Category
+    {
+        [Key]
+        public int  Id { get; set; }
+
+        [Display(Name="Category Name")]
+        [Required]
+        [MaxLength(50)]
+
+        public string Name { get; set; }
+    }
+}
+
+- Made changes in the ApplicationDbContext.cs folder
+- Need to run the migration again
+- Deleted the Migration that was created previously 
+- Made a new migration and it was successful!
+- Updated the Database
+- Commited to Github
