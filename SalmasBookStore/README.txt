@@ -152,3 +152,20 @@ Going to contiune cannot commit to github while having errors. Going to try to f
 - Updated the GitHub repo
 
 -------- THE END OF PART 1 -------------
+
+2023-10-31
+0243
+
+STARTING PART 2 OF THIS PROJECT
+
+- Rebuild the application and there are no errors!
+- Went to appsettings.json file and modifided the database name to (Database=SalmasBookStore;)
+- Used the NuGet Package Manager Console to add the migration.
+- Ran this in the console : (add-migration AddDefaultIdentityMigration)
+- Getting errors! Need to change the Default Project name to (SalmasBook.DataAccess)
+- Ran (add-migration AddDefaultIdentityMigration) again, was a success!
+- This was the migration file added: [20231031185332_AddDefaultIdentityMigration.cs]
+- Ran update-database in the console, was successfull!
+- Ran the applciation to check if there are any errors, no errors!
+- Build was a success.
+- Commited to Git Repo
