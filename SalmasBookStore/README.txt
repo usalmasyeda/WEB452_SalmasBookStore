@@ -214,3 +214,12 @@ public class Category
 - Reviwed and modified the error in CategoryRepository.cs
 - Commited to GitHub
 
+0237
+
+- Implemented a stored procedure repository 
+- Added a new interface in the IRepository folder - ISP_Call.cs that extends IDisposable
+- Installed the NuGet package for Dapper
+- Implemented a new class in the Repository folder
+- Added a new class called (SP_Call.cs)
+- Commited to GitHub
+
