@@ -238,3 +238,12 @@ public class Category
 - GETTING ERRORS!!! FIXING THE ERRORS!!
 - Fixed the errors.
 - Commit to github.
+
+0618
+
+2.3 CATEGORY CRUD
+- Added a new MVC Controller-Empty inside Areas/Admin
+- Named it CategoryController.cs
+- Modified the code to use the IUnitOfWork from the .DataAccess project
+- Added the using statements
+- Commited to GitHub
