@@ -247,3 +247,13 @@ public class Category
 - Modified the code to use the IUnitOfWork from the .DataAccess project
 - Added the using statements
 - Commited to GitHub
+
+0653
+- Created a new folder in the Areas/View 
+- Named as the Controller -> Category
+- Added the folder -> Areas -> Admin -> Views
+- Added a new Index view to the folder and modified the code
+- Used the code given the Assignment 2 folder - files folder
+- Save and ran  the application
+- No errors!! Everything works good.
+- Commited to Github!
