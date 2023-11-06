@@ -222,6 +222,19 @@ public class Category
 - Implemented a new class in the Repository folder
 - Added a new class called (SP_Call.cs)
 - Commited to GitHub
-
 - Added the using statements in the SP_Call.cs file
 
+0503
+
+- Added a connection to the database
+- Updated the implementation of the ISP_Call interface
+- Added the wrapper for Unit of Work
+- Added a new interface (IUnitOfWork) to the IRepository folder
+- Updated the code.
+- Added a class
+- Modified the code making sure the public class implements the interface- UnitOfWork: IUnitOfWork
+- Registered it to Startup.cs in the ConfigureServices method
+- Added the using statements
+- GETTING ERRORS!!! FIXING THE ERRORS!!
+- Fixed the errors.
+- Commit to github.

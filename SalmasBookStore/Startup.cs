@@ -1,3 +1,5 @@
+using SalmasBook.DataAccess.Repository.IRepository;
+using SalmasBook.DataAccess.Repository;
 using SalmasBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,8 +34,10 @@ namespace SalmasBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+            // removed 'options => options.SignIn.RequireConfirmedAccount = true'
             services.AddDefaultIdentity<IdentityUser>(/*options => options.SignIn.RequireConfirmedAccount = true*/)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();  
             services.AddControllersWithViews();
         }
 
