@@ -193,3 +193,24 @@ public class Category
 - Made a new migration and it was successful!
 - Updated the Database
 - Commited to Github
+
+2023-11-6
+0113
+
+2.2 REPOSITORY
+
+- Rebuild the application and there are no errors!
+- Created a new folder named 'Repository' in .DataAccess
+- Created another folder inside the Repository folder named IRepository
+- Modified it so it can be used on the Category class to do all the CRUD operations. 
+- Created a new class file Repository.cs -> Repository folder.
+- Got the code from assignment 2 folder.
+- Created individual repos for catrgory
+ - CategoryRepository.cs
+ - ICategoryRepository.cs
+
+- Modified CategoryRepository 
+- Made adjustments in the code
+- Reviwed and modified the error in CategoryRepository.cs
+- Commited to GitHub
+
