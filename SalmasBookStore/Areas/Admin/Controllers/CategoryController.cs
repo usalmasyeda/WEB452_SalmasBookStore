@@ -41,6 +41,29 @@ namespace SalmasBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
+        // use HTTP POST to define the post-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Upsert(Category category)
+        {
+            if(ModelState.IsValid)  //Checks all validations in the model
+            {
+                if(category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                  /*  _unitOfWork.Save();*/
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index)); // to see all the categories
+            }
+            return View(category);
+        }
+
         //API calls here
         #region API CALLS
         [HttpGet]
@@ -50,6 +73,19 @@ namespace SalmasBookStore.Areas.Admin.Controllers
             //return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if(objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
         }
         #endregion
     }
