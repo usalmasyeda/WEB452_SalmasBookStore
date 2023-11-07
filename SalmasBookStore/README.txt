@@ -262,3 +262,13 @@ public class Category
 - In _Layout.cshtml moved the 'Category' link to the Content Management drop-down
 - Made some changes in the _Layout.cshtml page for the navigation
 - Commited to GitHub
+
+0733
+- Modified the Index.cshtml to add the icons in the Category section
+- Deleted it and added the JavaScript from the Assignment 2 files folder 
+- wwwroot/js folder
+- In Index.cshtml added the @section call to the category.js script and ran the project
+- The project ran successfully
+- Modified the CategoryController.cs file
+- Added a Razor View
+- Created A partial View 

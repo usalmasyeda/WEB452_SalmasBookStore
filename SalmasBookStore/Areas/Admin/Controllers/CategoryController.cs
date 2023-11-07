@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SalmasBook.DataAccess.Repository;
 using SalmasBook.DataAccess.Repository.IRepository;
+using SalmasBook.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,23 @@ namespace SalmasBookStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Upsert(int? id) //action method for Upsert
+        {
+            Category category = new Category();
+            if(id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this for the edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if(category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
         }
 
         //API calls here
