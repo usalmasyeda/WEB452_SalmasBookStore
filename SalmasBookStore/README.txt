@@ -257,3 +257,8 @@ public class Category
 - Save and ran  the application
 - No errors!! Everything works good.
 - Commited to Github!
+
+0707
+- In _Layout.cshtml moved the 'Category' link to the Content Management drop-down
+- Made some changes in the _Layout.cshtml page for the navigation
+- Commited to GitHub
