@@ -254,9 +254,9 @@ public class Category
 - Added the folder -> Areas -> Admin -> Views
 - Added a new Index view to the folder and modified the code
 - Used the code given the Assignment 2 folder - files folder
-- Save and ran  the application
+- Save and run  the application
 - No errors!! Everything works good.
-- Commited to Github!
+- Committed to Github!
 
 0707
 - In _Layout.cshtml moved the 'Category' link to the Content Management drop-down
@@ -272,3 +272,18 @@ public class Category
 - Modified the CategoryController.cs file
 - Added a Razor View
 - Created A partial View 
+- Created A partial View _CreateAndBackToListButton.cshtml
+- Added the asp-action
+- Created another partial view _EditAndBackToListButton
+- Modified the Upsert.cshtml 
+- Added the asp-action to the index.cshtml and ran the application
+- Created a new Category file
+- Added the @section call to script to validate input on the client side
+- Added the save method
+- Added API call for HTTPDelete in the CategoryController.cs
+- Implemented the HTTPDelete with a delete method in category.js to add functionality to the application and call the API
+- Added the delete functionality to category.js and onclick event to the delete function
+- Added the function delete (url) at the end of the page
+- The delete button is not working
+
+-------- THE END OF PART 2 -------------
