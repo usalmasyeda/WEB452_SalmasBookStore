@@ -285,5 +285,6 @@ public class Category
 - Added the delete functionality to category.js and onclick event to the delete function
 - Added the function delete (url) at the end of the page
 - The delete button is not working
+- MY PROBLEM WAS THERE WAS NO SPACE BEFORE CLASS FOR THE DELETE BUTTON!!!! I FIXED THE PROBLEM BY ADDING SPACE!
 
 -------- THE END OF PART 2 -------------
