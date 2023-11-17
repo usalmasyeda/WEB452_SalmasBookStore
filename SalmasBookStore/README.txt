@@ -303,3 +303,22 @@ STARTING PART 3 (SECTION 1) OF THIS PROJECT
 - Added the migration via the PM Console (add-migration AddCoverTypeToDb)
 - Migration (20231117222000_AddCoverTypeToDb)
 - Updated the Database
+- Commited to GitHub
+
+2023-11-17
+0534
+
+- Clean Solution
+- Built Solution
+- update-database
+
+- Added the CoverType.cs to the ApplicationDbContext file.
+- public DbSet<CoverType> CoverType {get; set; }
+- Created a new folder named CoverTypeRepository
+- Another folder inside the CoverTypeRepository called ICoverTypeRepository
+- Created a new item of type interface to the folder ICoverTypeRepository.cs
+- Modified the ICoverTypeRepository.cs file, to use for CRUD
+- Added required using statements 
+- Created a new class in CoverTypeRepository folder
+- Added the public interface and modified the code to create the constructors and 
+dependency injection (Assignment 2 folder Repository)
