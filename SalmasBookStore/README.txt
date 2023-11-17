@@ -294,4 +294,12 @@ public class Category
 
 STARTING PART 3 (SECTION 1) OF THIS PROJECT
 
+- Clean Solution
+- Built Solution
+- update-database (The application runs successfully)
 
+- Created a new table to the DB by creating a CoverType model 
+- Added a new class file to the .Models project 
+- Added the migration via the PM Console (add-migration AddCoverTypeToDb)
+- Migration (20231117222000_AddCoverTypeToDb)
+- Updated the Database
