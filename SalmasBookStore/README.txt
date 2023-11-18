@@ -343,3 +343,7 @@ which will cause a problem
 - Added the covertype in the _layout.cshtml page
 - Ran the application, no errors!
 
+- THE MIGRATION DIDNT WORK AND THE DATABASE WAS NOT SHOWING
+- SOMETHINGS WENT WRONG
+- DELETED ALL THE FOLDER AND FILES RELATED TO THE CoverType
+(STARTING OVER)
