@@ -322,3 +322,13 @@ STARTING PART 3 (SECTION 1) OF THIS PROJECT
 - Created a new class in CoverTypeRepository folder
 - Added the public interface and modified the code to create the constructors and 
 dependency injection (Assignment 2 folder Repository)
+
+2023-11-18
+0124
+
+- Deleted the CoverTypeRepository folder because later I create a covertype file again
+which will cause a problem
+- Added CoverType to the Repository
+- Added CoverTypeRepository Class
+- Added ICoverTypeRepository Interface
+- Built solution, no errors
