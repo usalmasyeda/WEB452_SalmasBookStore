@@ -332,5 +332,14 @@ which will cause a problem
 - Added CoverTypeRepository Class
 - Added ICoverTypeRepository Interface
 - Built solution, no errors
-
 - Added the code for CoverType to both UnitOfWork and IUnitOfWork
+- Created a new MVC Controller-Empty inside Areas/Admin
+- Named the controller: CoverTypeController.cs
+- Created a new folder in the Areas/View named it CoverType
+- Modified the IUnitOfWork from the .DataAccess 
+- Added the required using statements
+- Created a new folder named CoverType inside Views folder
+- Added a new Index Razor view inside the CoverType folder
+- Added the covertype in the _layout.cshtml page
+- Ran the application, no errors!
+
