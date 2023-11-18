@@ -332,3 +332,5 @@ which will cause a problem
 - Added CoverTypeRepository Class
 - Added ICoverTypeRepository Interface
 - Built solution, no errors
+
+- Added the code for CoverType to both UnitOfWork and IUnitOfWork
