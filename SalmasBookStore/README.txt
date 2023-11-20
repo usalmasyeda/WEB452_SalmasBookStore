@@ -435,3 +435,5 @@ which will cause a problem
 - Copy and pasted the code from tiny.cloud
 - Added the info into the script tag under Upsert.cshtml
 - Ran the applciation I have getting an exception error.
+
+- Completed Part 3
