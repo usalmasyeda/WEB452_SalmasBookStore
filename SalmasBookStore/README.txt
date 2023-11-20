@@ -415,3 +415,14 @@ which will cause a problem
 - Modified the class and added the using statements 
 - Commented out upsert post method 
 - Made changes in the productController
+
+0221
+
+- Added an Index View
+- Modified the Index Page for Products
+- Created a new product.js file
+- Made the changes needed
+- Added it to the _Layout.cshtml file
+- Made changes in the product.js file in the columns section
+- The application runs successfully (exception shown but it was ignored)
+- Commited to github
