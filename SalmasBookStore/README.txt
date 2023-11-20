@@ -374,3 +374,5 @@ which will cause a problem
 - Added CoverType Controller
 - Created new CoverType Folder inside Views
 - Created CoverType Index View inside the CoverType Folder
+- Created the CoverType Upsert View and updated CoverType
+- Added the delete funtion as well
