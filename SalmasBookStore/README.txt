@@ -369,3 +369,8 @@ which will cause a problem
 - Added CoverType to UnitOfWork and IUnitOfWork
 - Pushed CoverType to database by updating database
 - Commited to github
+
+- Added CoverType to NavBar
+- Added CoverType Controller
+- Created new CoverType Folder inside Views
+- Created CoverType Index View inside the CoverType Folder
