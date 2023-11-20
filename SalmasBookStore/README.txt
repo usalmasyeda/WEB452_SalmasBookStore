@@ -349,7 +349,7 @@ which will cause a problem
 (STARTING OVER)
 
 2023-11-19
-0924
+0924  --- part 1 ---
 
 - Cleaned solution
 - Build solution
@@ -377,7 +377,7 @@ which will cause a problem
 - Created the CoverType Upsert View and updated CoverType
 - Added the delete funtion as well
 
-1059
+1059 --- part 2 ---
 
 - Creating a new products folder
 - Created Product Class
@@ -426,3 +426,12 @@ which will cause a problem
 - Made changes in the product.js file in the columns section
 - The application runs successfully (exception shown but it was ignored)
 - Commited to github
+
+0229 --- part 3 ---
+
+- Created an Upsert.cs for products
+- Added code from the Assignment 2 folder
+- Created an account with tiny.cloud
+- Copy and pasted the code from tiny.cloud
+- Added the info into the script tag under Upsert.cshtml
+- Ran the applciation I have getting an exception error.
