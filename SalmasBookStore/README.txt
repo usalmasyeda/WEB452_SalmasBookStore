@@ -391,4 +391,13 @@ which will cause a problem
 - updated-database
 - Added new migration
 - updated database
-- 
+
+
+1110
+
+- Added Product to the Repository
+- Added IProductRepository Interface
+- Added ProductRepository Class and made modifications
+- Updated Database
+- Added Product to UnitOfWork and IUnitOfWork
+- Clean solution and built solution
