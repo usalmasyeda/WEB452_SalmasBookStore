@@ -362,3 +362,10 @@ which will cause a problem
 - updated the database
 - The table was successfully made.
 - Commited to github
+
+- Added CoverType to the Repository Folder
+- Added CoverTypeRepository Class
+- Added ICoverTypeRepository Interface 
+- Added CoverType to UnitOfWork and IUnitOfWork
+- Pushed CoverType to database by updating database
+- Commited to github
