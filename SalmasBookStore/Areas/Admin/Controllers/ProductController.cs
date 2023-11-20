@@ -62,27 +62,27 @@ namespace SalmasBookStore.Areas.Admin.Controllers
 
         }
 
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public IActionResult Upsert(CoverType coverType)
+        public IActionResult Upsert(Product product)
         {
             if (ModelState.IsValid)  //Checks all validations in the model
             {
-                if (coverType.Id == 0)
+                if (product.Id == 0)
                 {
-                    _unitOfWork.CoverType.Add(coverType);
-                    *//*  _unitOfWork.Save();*//*
+                    _unitOfWork.Product.Add(product);
+                    _unitOfWork.Save();
                 }
                 else
                 {
-                    _unitOfWork.CoverType.Update(coverType);
+                    _unitOfWork.Product.Update(product);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index)); // to see all the categories
             }
-            return View(coverType);
-        }*/
+            return View(product);
+        }
 
         //API calls here
         #region API CALLS
