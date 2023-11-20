@@ -376,3 +376,19 @@ which will cause a problem
 - Created CoverType Index View inside the CoverType Folder
 - Created the CoverType Upsert View and updated CoverType
 - Added the delete funtion as well
+
+1059
+
+- Creating a new products folder
+- Created Product Class
+- Modified the product class
+- Added it to the ApplicationDbContext.cs file
+- Added migration
+- TIMESTAMP: 20231120045758_AddProductToDb
+- Updated Database
+
+- Added [Required] to title, ISBN and Authors in Product.cs class file
+- updated-database
+- Added new migration
+- updated database
+- 
