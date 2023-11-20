@@ -347,3 +347,18 @@ which will cause a problem
 - SOMETHINGS WENT WRONG
 - DELETED ALL THE FOLDER AND FILES RELATED TO THE CoverType
 (STARTING OVER)
+
+2023-11-19
+0924
+
+- Cleaned solution
+- Build solution
+- Database-updated
+- Application runs successfully
+
+- Created a new class file in the models folder named CoverType.cs
+- Updated ApplicationDbContext.cs file
+- Added migration (20231120023703_AddCoverTypeToDb)
+- updated the database
+- The table was successfully made.
+- Commited to github
