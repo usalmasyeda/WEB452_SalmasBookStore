@@ -401,3 +401,17 @@ which will cause a problem
 - Updated Database
 - Added Product to UnitOfWork and IUnitOfWork
 - Clean solution and built solution
+
+
+2023-11-20
+1125
+
+- Created a Product Controller
+- Added IWebHostEnvironment call
+- Added the using statements
+- Made changes 
+- Created a ProductVM class in the viewfolder
+-Installed the Microsoft.AspNetCore.Mvc.ViewFeatures package
+- Modified the class and added the using statements 
+- Commented out upsert post method 
+- Made changes in the productController
