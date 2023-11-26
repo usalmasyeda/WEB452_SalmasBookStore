@@ -471,5 +471,5 @@ IActionResult Upsert(ProductVM productVM)
 - Run the application still getting the exception error but it works
 - I have a small problem with my price list
 - Made changes in the Index.cshtml file from products 
-- The application works but the details page doesn't work
+- The application works but the details link doesn't work
 - Commiting to github
