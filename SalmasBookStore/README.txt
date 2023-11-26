@@ -473,3 +473,7 @@ IActionResult Upsert(ProductVM productVM)
 - Made changes in the Index.cshtml file from products 
 - The application works but the details link doesn't work
 - Commiting to github
+
+0449
+- Fixed my small mistakes in the product.js file
+- The application works perfect

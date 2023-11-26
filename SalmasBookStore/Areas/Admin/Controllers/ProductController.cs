@@ -140,7 +140,7 @@ namespace SalmasBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return not found
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
         }
 
