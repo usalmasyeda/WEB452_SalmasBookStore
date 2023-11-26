@@ -462,3 +462,14 @@ IActionResult Upsert(ProductVM productVM)
 - Made changes in the ProductController.cs file 
 - Made changes in the model folder, Product.cs
 - The web applicaiton is not opening and not working 
+
+0416 
+- I was getting errors and my application was not working 
+- I decided to go back to some changes I made and tried to see where I was getting an error
+- I created a new migration 20231126210151__addProduct2ToDb
+- Updated the database
+- Run the application still getting the exception error but it works
+- I have a small problem with my price list
+- Made changes in the Index.cshtml file from products 
+- The application works but the details page doesn't work
+- Commiting to github

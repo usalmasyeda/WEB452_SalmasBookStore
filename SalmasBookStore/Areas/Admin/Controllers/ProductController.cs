@@ -63,27 +63,6 @@ namespace SalmasBookStore.Areas.Admin.Controllers
 
         }
 
-        /*[HttpPost]
-        [ValidateAntiForgeryToken]
-
-        public IActionResult Upsert(Product product)
-        {
-            if (ModelState.IsValid)  //Checks all validations in the model
-            {
-                if (product.Id == 0)
-                {
-                    _unitOfWork.Product.Add(product);
-                    _unitOfWork.Save();
-                }
-                else
-                {
-                    _unitOfWork.Product.Update(product);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index)); // to see all the categories
-            }
-            return View(product);
-        }*/
 
         [HttpPost]
         [ValidateAntiForgeryToken]
