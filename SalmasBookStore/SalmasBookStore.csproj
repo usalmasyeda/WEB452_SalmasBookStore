@@ -23,8 +23,4 @@
     <ProjectReference Include="..\SalmasBook.Utility\SalmasBook.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
-  </ItemGroup>
-
 </Project>

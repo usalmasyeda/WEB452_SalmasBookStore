@@ -437,3 +437,28 @@ which will cause a problem
 - Ran the applciation I have getting an exception error.
 
 - Completed Part 3
+
+---------------------------------------------------------------------------------------------
+
+2023-11-26
+1158
+
+Product Upsert Post Action 
+- Made changes in the ProductController.cs file for the public
+IActionResult Upsert(ProductVM productVM)
+- Made this change : productVM.Product.ImageUrl = @"\images\products\" + fileName + extension;
+- Made changes in the Upsert.cshtml file added this code: 
+@if (Model.Product.Id != 0)
+            {
+                <div class="col-3 offset-1 pt-4">
+                    <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+                </div>
+            }
+- Made changes in this line of code as well: if (document.getElementById("uploadBox").value == "") {
+
+- Added book cover images in the wwwroot/images/products folder
+
+1252
+- Made changes in the ProductController.cs file 
+- Made changes in the model folder, Product.cs
+- The web applicaiton is not opening and not working 
