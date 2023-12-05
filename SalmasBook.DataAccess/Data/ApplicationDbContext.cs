@@ -16,6 +16,6 @@ namespace SalmasBookStore.DataAccess.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<CoverType> CoverTypes {get; set; }
-        public DbSet<Product> Products { get; set; } // adding all products to the db
+        public DbSet<Product> Products { get; set; }
     }
 }

@@ -477,3 +477,9 @@ IActionResult Upsert(ProductVM productVM)
 0449
 - Fixed my small mistakes in the product.js file
 - The application works perfect
+
+2023-12-04
+0846
+
+Started all over again for part 4
+- completed and successfull

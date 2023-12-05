@@ -280,9 +280,6 @@ namespace SalmasBook.DataAccess.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("ListPrice")
-                        .HasColumnType("float");
-
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
@@ -293,6 +290,8 @@ namespace SalmasBook.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("CoverTypeId");
 
                     b.ToTable("Products");
                 });
@@ -358,7 +357,7 @@ namespace SalmasBook.DataAccess.Migrations
 
                     b.HasOne("SalmasBook.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CoverTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

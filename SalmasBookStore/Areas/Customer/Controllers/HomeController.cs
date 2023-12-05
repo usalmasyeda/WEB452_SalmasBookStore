@@ -1,13 +1,14 @@
-﻿using SalmasBook.Models;
-using SalmasBook.DataAccess.Repository.IRepository;
+﻿using SalmasBook.DataAccess.Repository.IRepository;
+using SalmasBook.Models;
+using SalmasBook.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SalmasBookStore.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using SalmasBookStore.Models.ViewModels;
 
 namespace SalmasBookStore.Area.Customer.Controllers
 {
@@ -16,8 +17,6 @@ namespace SalmasBookStore.Area.Customer.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUnitOfWork _unitOfWork;
-
-       /* public HomeController(ILogger<HomeController> logger);*/
         public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
@@ -26,7 +25,7 @@ namespace SalmasBookStore.Area.Customer.Controllers
 
         public IActionResult Index()
         {
-            /*return View();*/
+            /* return View();*/
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return View(productList);
         }

@@ -2,7 +2,7 @@
 
 namespace SalmasBook.DataAccess.Migrations
 {
-    public partial class AddProductToDb : Migration
+    public partial class _AddProductToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,7 @@ namespace SalmasBook.DataAccess.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ISBN = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ListPrice = table.Column<double>(type: "float", nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     CoverTypeId = table.Column<int>(type: "int", nullable: false)
@@ -31,8 +31,8 @@ namespace SalmasBook.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Products_CoverTypes_CategoryId",
-                        column: x => x.CategoryId,
+                        name: "FK_Products_CoverTypes_CoverTypeId",
+                        column: x => x.CoverTypeId,
                         principalTable: "CoverTypes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -42,6 +42,11 @@ namespace SalmasBook.DataAccess.Migrations
                 name: "IX_Products_CategoryId",
                 table: "Products",
                 column: "CategoryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_CoverTypeId",
+                table: "Products",
+                column: "CoverTypeId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
